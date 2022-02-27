@@ -1,0 +1,177 @@
+*{padding:0;margin:0;box-sizing:border-box;}
+.header-logo{width:100px;height:100px;filter: invert(1);}
+.header-clock{filter: invert(0);width:40px;height:40px;}
+ 
+.header-web{/* border:1px solid green; */position: fixed;top: 0;right: 0;left: 0;}
+.header-web .nav-item{
+    padding-left:10px;font-size:14px;font-family:Arial;;
+}
+.header-web .navbar-light .navbar-nav .nav-link{
+    color: white;
+    
+}
+.header-web .navbar-light .navbar-nav .nav-link:hover{color:yellow}
+.header-web .dropdown-toggle::after{
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid red;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;display:none;
+}
+.header-web-button{
+        color: #3743d5;
+        border-color: #28a745;
+        min-width: 200px;
+        border-radius: 100px;
+        background-color: yellow;
+        color: #333;
+        padding: 10px 0px;
+        border: transparent;
+}
+
+.header-banner .banner-txt{
+    color: #fff;
+    /* border: 1px solid #ffff00; */
+}
+.header-banner {
+    padding: 200px 0px 50px;
+    
+    height:900px;
+}
+
+.header-banner{background-image:url(./images/sec1-background-image.png);
+background-size: cover;background-repeat:no-repeat;background-position:center center;}
+
+
+
+.banner-inputs .inputs-box label{
+    display: block;
+    color: #fff;
+}
+
+.banner-inputs .inputs-box{
+    display: inline-block;
+}
+.banner-inputs{
+    padding: 20px 0px;
+
+}
+.darkHeader {
+    background-color:#003366;
+    z-index: 100;
+}
+#header-banner-button-text{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white
+}
+.fa-regular, .far{filter: invert(1)}
+.header-banner-input1-radius{border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;}
+    
+
+
+.banner-inputs .inputs-box input{
+    padding:5px 0;
+}
+
+.sec2{margin:20px 0;}
+.sec2 .right-div .right-div-p{text-align: justify; padding-left: 80px;}
+.sec2 .right-content{line-height:20px}
+.sec2-main-div-flex{display:flex;flex-wrap:wrap;justify-content:space-between;}
+.right-content{padding:10px 0;}
+
+
+.left-div{width:50%;text-align:center}
+.right-div{width:50%;text-align:center}
+.left-div .left-content img{width:500px;height:500px}
+.right-div  img{width:70px;height:70px}
+.right-div img,span{display:inline-block}
+
+.HireACar-sec2{padding:30px 0;}
+.sec2-contant-flex{display:flex;justify-content: center;border:1px solid #bebebe ridge;box-shadow:-1px -1px 3px -1px;
+padding:20px 0}
+.sec2-contant-flex .button button{padding:8px 20px}
+
+.HireACar-sec3{padding:20px 0;}
+.sec3-flex{display:flex;border-radius:30px;border:1px solid #ffffff;   box-shadow:2px 2px 8px 1px;padding:20px 0}
+.sec3-flex .image-left1{padding-top:10px}
+.sec3-flex .image-left1 img{border-radius:50px;border:2px solid ridge gray}
+.contant-right1 ul{background-color:#80ff00;border-radius:100px;padding-top:5px;
+    padding-bottom:5px;padding-left:10px}
+.contant-right1 ul li{display:inline-block;padding-left:15px}
+
+
+.sec3-second-car-div{margin-top:30px}
+
+
+.HireACar-sec4{padding:20px 0}
+.sec4-heading{display:flex}
+.sec4-flex .sec4-img1{width:30%;}
+.sec4-flex{display:flex;justify-content:space-around;margin-top:20px;flex-wrap:wrap}	
+.sec4-img1{background-image:url(./images/sec3-car-img.jpg);background-repeat:no-repeat;background-size:contain;
+	height:350px;width:280px;border-radius:10px;border:outset;transition:transform 0.5s;background-color:white;}
+.sec4-margin{margin-top:170px;margin-left:0px;}	
+.sec4-h-flex{display:flex}
+.sec4-h-flex li{list-style:none;padding-left:15px;margin-right:10px;}
+.sec4-padding{padding-top:30px}
+
+
+.before-footer-paragraph{text-align:center;margin-top:20px}
+.footer1-right button{background-color:yellow;border-radius:10px;padding:5px 10px}
+
+
+.HireACar-footer1{margin-top:20px;background-color:#003366}
+.footer1-flex{display:flex;justify-content:space-around;align-items:center;flex-wrap:wrap;}
+.footer1-right{padding-top:20px}
+.footer1-right input{padding:5px 10px;border-radius:10px;width:50%}
+.footer-content ul li{color:white;list-style:none;padding-top:20px}
+.footer-content p ,h4{color:white;padding-top:10px}
+
+.HireACar-footerlast{background-color:#212529}
+.last-footer-flex{display:flex;justify-content:space-between;}
+
+@media screen and (max-width: 600px) {
+    .sec3-flex{flex-wrap:wrap;}
+    .contant-right1{padding-top:20px;text-align:center}
+
+    .sec4-flex .sec4-img1{width:70%;margin:20px 0}
+    .image-left1{text-align:center}
+    .footer1-left{text-align:center}
+    .footer1-right input{width:100%}
+    .footer1-left h1{padding-top:40px}
+    .footer1-right button{width:50%}
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    .banner-inputs .inputs-box{
+        display:block;
+    }
+    .inputs-box input {
+        width: 100%;
+    }
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    
+    .sec2-flex .left-div .left-content img{width:300px;height:300px}
+    .sec2 .right-div .right-div-p{text-align: justify;
+        padding-left: 40px;}
+    }
+}
+
+
+
+
+
+
+
